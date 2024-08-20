@@ -2,18 +2,18 @@
     --highlight: rgb(4, 217, 255); /* Updated */
     --rgb-background: 237, 169, 233; /* Updated */
     --background: rgb(237, 169, 233); /* Updated */
-    --rgb-text: 0, 0, 0; /* Updated */
-    --text: rgb(0, 0, 0); /* Updated */
-    --rgb-close-button: 255, 0, 155; /* Updated */
-    --close-button: rgb(255, 0, 155); /* Updated */
-    --rgb-online-color: 180, 0, 189; /* Updated */
-    --online-color: rgb(180, 0, 189); /* Updated */
-    --rgb-afk-color: 221, 232, 0; /* Updated */
-    --afk-color: rgb(221, 232, 0); /* Updated */
+    --rgb-text: 197, 200, 198; /* Updated */
+    --text: rgb(197, 200, 198); /* Updated */
+    --rgb-close-button: 212, 18, 39; /* Updated */
+    --close-button: rgb(212, 18, 39); /* Updated */
+    --rgb-online-color: 57, 255, 20; /* Updated */
+    --online-color: rgb(57, 255, 20); /* Updated */
+    --rgb-afk-color: 255, 255, 51; /* Updated */
+    --afk-color: rgb(255, 255, 51); /* Updated */
     --rgb-dnd-color: 255, 0, 0;
     --dnd-color: rgb(255, 0, 0);
-    --rgb-streaming-color: 107, 0, 197; /* Updated */
-    --streaming-color: rgb(107, 0, 197); /* Updated */
+    --rgb-streaming-color: 188, 19, 254; /* Updated */
+    --streaming-color: rgb(188, 19, 254); /* Updated */
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
