@@ -1,21 +1,19 @@
-:root,
-.theme-dark,
-.theme-light {
-    --highlight: rgb(var(--rgb-highlight));
+:root,.theme-dark,.theme-light{
+    --highlight: rgb(4, 217, 255); /* Updated */
     --rgb-background: 237, 169, 233; /* Updated */
-    --background: rgb(var(--rgb-background));
+    --background: rgb(237, 169, 233); /* Updated */
     --rgb-text: 0, 0, 0; /* Updated */
-    --text: rgb(var(--rgb-text));
+    --text: rgb(0, 0, 0); /* Updated */
     --rgb-close-button: 255, 0, 155; /* Updated */
-    --close-button: rgb(var(--rgb-close-button));
+    --close-button: rgb(255, 0, 155); /* Updated */
     --rgb-online-color: 180, 0, 189; /* Updated */
-    --online-color: rgb(var(--rgb-online-color));
+    --online-color: rgb(180, 0, 189); /* Updated */
     --rgb-afk-color: 221, 232, 0; /* Updated */
-    --afk-color: rgb(var(--rgb-afk-color));
-    --rgb-dnd-color: 255, 0, 0; /* No change */
-    --dnd-color: rgb(var(--rgb-dnd-color));
+    --afk-color: rgb(221, 232, 0); /* Updated */
+    --rgb-dnd-color: 255, 0, 0;
+    --dnd-color: rgb(255, 0, 0);
     --rgb-streaming-color: 107, 0, 197; /* Updated */
-    --streaming-color: rgb(var(--rgb-streaming-color));
+    --streaming-color: rgb(107, 0, 197); /* Updated */
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -137,4 +135,20 @@
     --button-outline-brand-text-active: rgba(var(--rgb-highlight), 100%);
     --button-outline-brand-border-hover: rgba(var(--rgb-highlight), 70%);
     --button-outline-brand-border-active: rgba(var(--rgb-highlight), 100%);
-    --search-popout-option-user-nickname
+    --search-popout-option-user-nickname: var(--text);
+    --search-popout-option-user-username: var(--text);
+    --search-popout-option-user-discriminator: var(--text);
+    --search-popout-option-user-status: var(--text);
+    --search-popout-option-user-badge: var(--text);
+    --search-popout-option-user-badge-hover: var(--highlight);
+    --search-popout-option-user-username-hover: var(--highlight);
+    --search-popout-option-user-status-hover: var(--highlight);
+    --search-popout-option-user-nickname-hover: var(--highlight);
+    --search-popout-option-user-discriminator-hover: var(--highlight);
+    --search-popout-option-user-badge-hover: var(--highlight);
+    --search-popout-option-user-badge-active: var(--highlight);
+    --search-popout-option-user-username-active: var(--highlight);
+    --search-popout-option-user-status-active: var(--highlight);
+    --search-popout-option-user-nickname-active: var(--highlight);
+    --search-popout-option-user-discriminator-active: var(--highlight);
+  }
